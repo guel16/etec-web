@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:
+    wght@300;400;600;700&family=Fira+Code:wght@400;500&display=sawp"
+    rel="styleheet">
+    <script src="script.js" defer ></script>
+     <style>
+    body{
+        font-family: 'inter', sans-serif;
+    }    
+    code, 
+    pre{
+        font-family: 'Fire code', monospace;
+    }
+    .gradient-bg {
+        background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    }
+    .preview-card {
+        border: 1px solid rgb(203 213 225);
+        background-color: rgb(226 232 240);
+        border-radius: 1rem;
+        padding: 1.5rem;
+        box-shadow: inset 0 2px 4px 0 rgb(15 23 42 / 0.06);
+    }
+    .preview-title{
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 0.875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        color: rgb(100 116 139);
+    }   
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+  
+   
+    <main class="mx-auto max-w-4xl space-y-10 px-6 py-12">
+        <section class="space-y-6">
+            <div class="space-y-6">
+                <div class="preview-card">
+                    <h3 class="preview-title">1. forEach (pokedex)</h3>
+                    <div id="live-pokedex-preview" class="grid grid-cols-1 gap-4 sm: grid-cols-3"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
