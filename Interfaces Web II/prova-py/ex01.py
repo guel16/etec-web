@@ -1,0 +1,5 @@
+print ("--------- FICHA DO ALUNO ---------")
+print ("NOME: Miguel Augusto Leoderio Fonseca")
+print("ESCOLA: Etec Darcy Pereira de Moraes")
+print("TURMA: B")
+print (" - " * 50 )

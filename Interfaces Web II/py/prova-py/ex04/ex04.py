@@ -1,0 +1,5 @@
+notas = float(input("Digite uma nota "))
+notas = float(input("Digite outra nota "))
+notas = float(input("Digite a ultima nota "))
+print (notas, type(float))
+print(notas)

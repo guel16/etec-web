@@ -1,0 +1,5 @@
+nomeCompleto = input("Digite seu nome completo: ").strip()
+print(nomeCompleto.lower)
+print(nomeCompleto.upper)
+print(nomeCompleto.strip)
+print(nomeCompleto.capitalize)

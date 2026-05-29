@@ -1,0 +1,8 @@
+numeroInteiro1 = int(input("Digite um numero: "))
+numeroInteiro2 = int(input("Digite outro numero: "))
+print (numeroInteiro1 + numeroInteiro2)
+print (numeroInteiro1 - numeroInteiro2)
+print (numeroInteiro1 * numeroInteiro2)
+print (numeroInteiro1 / numeroInteiro2)
+total = print (numeroInteiro1 = numeroInteiro2)
+print (total)
